@@ -36,6 +36,7 @@ public class JpaPropietarioRepoTest {
         try {
             Propietario prop = new Propietario(null, "ricardo", "r@r.com", "1234567", 45);
             propietarioRepo.save(prop);
+            System.out.println("****Propietario: PID PID PID PID "+prop.getPid());
             assertTrue(prop.getPid() > 0);
             System.out.println("****Propietario:"+prop);
         } catch (Exception e) {

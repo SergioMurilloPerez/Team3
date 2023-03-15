@@ -12,7 +12,8 @@ import javax.persistence.*;
 @Getter @Setter
 @NoArgsConstructor @AllArgsConstructor
 public class Propietario {
-    @Id @GeneratedValue(strategy = GenerationType.AUTO)
+   
+	@Id @GeneratedValue(strategy = GenerationType.AUTO)
     private Long pid;
     @Column
     private String nombre;

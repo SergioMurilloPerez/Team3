@@ -10,9 +10,11 @@ import java.util.List;
 
 public class JPAPropietarioRepo implements IPropietarioRepo {
     
+	@PersistenceContext
     private EntityManager em;
 
     @Override
+    @Transactional
     public List<Propietario> findAll() {
         Query query = em.createQuery("SELECT e FROM Propietario e");
         return (List<Propietario>) query.getResultList();
