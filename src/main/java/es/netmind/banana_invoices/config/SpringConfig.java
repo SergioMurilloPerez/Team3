@@ -13,5 +13,4 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Import({ReposConfig.class, ServicesConfig.class})
 public class SpringConfig {
 
-
 }

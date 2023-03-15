@@ -9,7 +9,6 @@ class GestorRecibosTest {
     @Test
     void add_recibos() {
     }
-
     @Test
     void add_propietarios() {
     }

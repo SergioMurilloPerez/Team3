@@ -8,7 +8,6 @@ import java.util.List;
 public interface IInventario {
     public List<Propietario> findAllPropietarios();
     public Propietario savePropietario(Propietario prop);
-    
     public List<Recibo> findAllRecibos();
     public Recibo saveRecibo(Recibo prop);
     

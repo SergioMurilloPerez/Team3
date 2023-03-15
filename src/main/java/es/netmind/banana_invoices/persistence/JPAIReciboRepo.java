@@ -13,7 +13,6 @@ import org.springframework.transaction.annotation.*;
 import java.util.List;
 
 public class JPAIReciboRepo implements IReciboRepo{
-
 	@PersistenceContext
     private EntityManager em;
 

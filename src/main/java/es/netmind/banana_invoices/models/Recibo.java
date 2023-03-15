@@ -44,5 +44,4 @@ public class Recibo {
     private boolean estado;
 	@Column
     private boolean valido;
-
 }

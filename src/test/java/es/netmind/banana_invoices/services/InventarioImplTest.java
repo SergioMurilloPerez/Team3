@@ -25,6 +25,5 @@ class InventarioImplTest {
         List<Propietario> propietarios = inventario.findAllPropietarios();
         assertNotNull(propietarios);
         System.out.println("Propietarios:" + propietarios);
-
     }
 }

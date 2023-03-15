@@ -23,4 +23,5 @@ public class Propietario {
     private String telefono;
     @Column
     private int seccion;
+    
 }

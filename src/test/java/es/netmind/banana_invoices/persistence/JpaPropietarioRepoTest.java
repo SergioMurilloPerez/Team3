@@ -28,7 +28,6 @@ public class JpaPropietarioRepoTest {
         } catch (Exception e) {
             fail("Error:" + e.getMessage());
         }
-
     }
 
     @Test

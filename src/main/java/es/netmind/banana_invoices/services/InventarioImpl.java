@@ -17,7 +17,6 @@ public class InventarioImpl implements IInventario {
 	@Getter @Setter
     private IReciboRepo recibosRepo;
     
-
     @Override
     public List<Propietario> findAllPropietarios() {
         return propietariosRepo.findAll();

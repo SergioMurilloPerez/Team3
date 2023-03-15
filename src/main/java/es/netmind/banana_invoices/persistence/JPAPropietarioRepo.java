@@ -9,7 +9,6 @@ import javax.transaction.Transactional;
 import java.util.List;
 
 public class JPAPropietarioRepo implements IPropietarioRepo {
-    
 	@PersistenceContext
     private EntityManager em;
 

@@ -8,5 +8,4 @@ import java.util.List;
 public interface IReciboRepo {
     public List<Recibo> findAllRecibos();
     public Recibo saveRecibo(Recibo recibo);
-
 }
