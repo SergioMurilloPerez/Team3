@@ -58,8 +58,7 @@ public class ReposConfig {
 		va.setGenerateDdl(true);
 		return va;
 	}
-	
-	
+		
 	private Properties additionalProperties() {
 		Properties properties = new Properties();
 		properties.setProperty("hibernate.dialect", env.getProperty("invoices.dialect")); 
