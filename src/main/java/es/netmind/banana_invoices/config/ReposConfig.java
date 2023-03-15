@@ -25,7 +25,6 @@ import java.util.Properties;
 @PropertySource("classpath:jdbc.properties")
 public class ReposConfig {
     
-	
 	@Autowired
 	private Environment env;
 	
